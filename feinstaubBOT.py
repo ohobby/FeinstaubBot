@@ -177,7 +177,7 @@ for x in sd:
 	    # hier den Tweet ausloesen
 	    alarm = True
 
-		
+    logger.info('%s P10 = %s P2,5 = %s'  %(xx, p10, p25 ))		
     if tweetx == 0:
 		logger.error('%s Keine Sonsordaten'  %(x))
 		
