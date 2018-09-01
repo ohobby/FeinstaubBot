@@ -83,6 +83,7 @@ def pick_2values(sensor):
 	    return(result2)
 	if a == 4:
 	    return (0)
+		# Hier wird später mal noch Sensoren ausgewertet, die z.B. den Luftdruck messen.
 
     return (0)
 
