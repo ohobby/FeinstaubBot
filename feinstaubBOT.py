@@ -163,17 +163,17 @@ for x in sd:
 	# hier kannst du den Maxwert anpassen
 	tweettext = ""
 	if 30 < p10 < 50:
-	    tweettext = '⚠️ Vorsicht Frankfurt !!! \n{} \nFeinstaubwert erhöht - Sensor: {} ist bei {} µg/m³ PM10 ({} µg/m³ PM2,5)\n- aktuelle Feinstaub und Temperaturwerte des Sensor: https://feinstaub.rexfue.de/{} \n- Mach mit, mehr Infos auf https://luftdaten.info'.format(dattime, x, p10,p25,x)
+	    tweettext = '⚠️ Vorsicht Frankfurt !!! \n{} \nFeinstaubwert erhöht\n- Sensor: {} ist bei {} µg/m³ PM10 ({} µg/m³ PM2,5)\n- aktuelle Feinstaub und Temperaturwerte des Sensor: https://feinstaub.rexfue.de/{} \n- Mach mit! Mehr Infos auf https://luftdaten.info'.format(dattime, x, p10,p25,x)
 	    # hier den Tweet ausloesen
 	    alarm = True
 
 	if 50 < p10 < 100:
-	    tweettext = '⚠️ Achtung Frankfurt !!! \n{} \nFeinstaubwert hoch - Sensor: {} ist bei {} µg/m³ PM10 ({} µg/m³ PM2,5)\n- aktuelle Feinstaub und Temperaturwerte des Sensor: https://feinstaub.rexfue.de/{} \n- Mach mit, mehr Infos auf https://luftdaten.info'.format(dattime, x, p10,p25,x)
+	    tweettext = '⚠️ Achtung Frankfurt !!! \n{} \nFeinstaubwert hoch\n- Sensor: {} ist bei {} µg/m³ PM10 ({} µg/m³ PM2,5)\n- aktuelle Feinstaub und Temperaturwerte des Sensor: https://feinstaub.rexfue.de/{} \n- Mach mit! Mehr Infos auf https://luftdaten.info'.format(dattime, x, p10,p25,x)
 		# hier den Tweet ausloesen
 	    alarm = True
 
 	if p10 > 100:
-	    tweettext = '⚠  ⚠  ⚠️ Achtung Frankfurt !!! ⚠  ⚠  ⚠  \n{} \nFeinstaubwert sehr hoch - Sensor: {} ist bei {} µg/m³ PM10 ({} µg/m³ PM2,5)\n- aktuelle Feinstaub und Temperaturwerte des Sensor: https://feinstaub.rexfue.de/{} \n- Mach mit, mehr Infos auf https://luftdaten.info'.format(dattime, x, p10,p25,x)
+	    tweettext = '⚠  ⚠  ⚠️ Achtung Frankfurt !!! ⚠  ⚠  ⚠  \n{} \nFeinstaubwert sehr hoch\n- Sensor: {} ist bei {} µg/m³ PM10 ({} µg/m³ PM2,5)\n- aktuelle Feinstaub und Temperaturwerte des Sensor: https://feinstaub.rexfue.de/{} \n- Mach mit! Mehr Infos auf https://luftdaten.info'.format(dattime, x, p10,p25,x)
 	    # hier den Tweet ausloesen
 	    alarm = True
 
