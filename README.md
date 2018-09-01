@@ -1,7 +1,7 @@
 # FeinstaubBot
 Feinstaub Twitter Bot für eine Liste an Sensoren
 
-Mein erster Versuch mit Python.
+Mein erster Versuch mit Python und Git.
 
 Noch im Aufbau.
 Der Code ist noch etwas unschön und kann bestimmt noch aufgeräumt und schöner gemacht werden.
