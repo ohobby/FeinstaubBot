@@ -6,7 +6,7 @@ import json
 import time
 import requests
 import tweepy
-import ConfigParser
+import configparser
 
 import logging
 logger = logging.getLogger('feinstaub')
@@ -179,7 +179,7 @@ for x in sd:
         print (tweettext)
 
 	# Twitter acess tokens laden
-	config = ConfigParser.ConfigParser()
+	config = configparser.ConfigParser()
 	config.readfp(open(r'feinstaubBot.cfg'))
 
 	CONSUMER_KEY = config.get('twitter-config', 'CONSUMER_KEY')
