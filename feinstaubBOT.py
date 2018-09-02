@@ -178,15 +178,15 @@ for x in sd:
 		
         print (tweettext)
 
-	# Twitter acess tokens laden
-	config = configparser.ConfigParser()
-	config.readfp(open(r'feinstaubBot.cfg'))
+        # Twitter acess tokens laden
+        config = configparser.ConfigParser()
+        config.readfp(open(r'feinstaubBot.cfg'))
 
-	CONSUMER_KEY = config.get('twitter-config', 'CONSUMER_KEY')
-	CONSUMER_SECRET = config.get('twitter-config', 'CONSUMER_SECRET')
-	ACCESS_KEY = config.get('twitter-config', 'ACCESS_KEY')
-	ACCESS_SECRET = config.get('twitter-config', 'ACCESS_SECRET')
-	
+        CONSUMER_KEY = config.get('twitter-config', 'CONSUMER_KEY')
+        CONSUMER_SECRET = config.get('twitter-config', 'CONSUMER_SECRET')
+        ACCESS_KEY = config.get('twitter-config', 'ACCESS_KEY')
+        ACCESS_SECRET = config.get('twitter-config', 'ACCESS_SECRET')
+
         # OAuth process, using the keys and tokens
         auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
         auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
