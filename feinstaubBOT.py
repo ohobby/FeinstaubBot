@@ -178,10 +178,10 @@ for x in sd:
         print (tweettext)
 
         # acess tokens
-        CONSUMER_KEY = 'caT0D040du0kCNDP9ovIYekUh'
-        CONSUMER_SECRET = 'EgJ4Dh7d14Yzmxx1nNFcFUuAlEifRcTrPB1Uurv63ka2YtQLUO'
-        ACCESS_KEY = '1010798081632296966-Tm8r6ygFhNMSeFIIG86D8tJNYdakrA'
-        ACCESS_SECRET = 'IKKYaTjpbHV360y8EAa7jmBmqWsUdHp4vPDMmlURy4RYO'
+        CONSUMER_KEY = 'xxxxxxxxxxxxxxxx'
+        CONSUMER_SECRET = 'xxxxxxxxxxxxxxxx'
+        ACCESS_KEY = 'xxxxxxxxxxxxxxxx'
+        ACCESS_SECRET = 'xxxxxxxxxxxxxxxx'
 
         # OAuth process, using the keys and tokens
         auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
